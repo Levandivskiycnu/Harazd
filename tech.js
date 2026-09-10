@@ -1,7 +1,3 @@
-// =========================
-// MOBILE MENU
-// =========================
-
 const burger = document.querySelector('.nav__burger');
 const navLinks = document.querySelector('.nav__links');
 
@@ -21,10 +17,6 @@ if (burger && navLinks) {
 }
 
 
-// =========================
-// CONTACT MODAL
-// =========================
-
 const contactButtons = document.querySelectorAll(
     '#button__mainContact, .nav__button, .CTA button'
 );
@@ -32,8 +24,6 @@ const contactButtons = document.querySelectorAll(
 const contactOverlay = document.querySelector('.contact__overlay');
 const contactClose = document.querySelector('.contact__close');
 
-
-// OPEN MODAL
 
 if (contactOverlay) {
 
@@ -52,8 +42,6 @@ if (contactOverlay) {
 }
 
 
-// CLOSE BUTTON
-
 if (contactClose && contactOverlay) {
 
     contactClose.addEventListener('click', () => {
@@ -64,8 +52,6 @@ if (contactClose && contactOverlay) {
 
 }
 
-
-// CLOSE BY CLICKING OUTSIDE
 
 if (contactOverlay) {
 
@@ -82,8 +68,6 @@ if (contactOverlay) {
 }
 
 
-// CLOSE BY ESC
-
 document.addEventListener('keydown', (event) => {
 
     if (event.key === 'Escape' && contactOverlay) {
@@ -93,3 +77,12 @@ document.addEventListener('keydown', (event) => {
     }
 
 });
+
+
+const projectsButton = document.getElementById('button__ourProject');
+
+if (projectsButton) {
+    projectsButton.addEventListener('click', function () {
+        window.location.href = 'portfolio.html';
+    });
+}

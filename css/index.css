@@ -368,10 +368,6 @@ border: 1px solid #999;
 }
 
 
-/* =========================
-   CTA
-========================= */
-
 .CTA {
     width: 100%;
     height: 250px;
@@ -448,10 +444,6 @@ border: 1px solid #999;
 }
 
 
-/* =========================
-   CONTACT MODAL
-========================= */
-
 .contact__overlay {
     position: fixed;
     inset: 0;
@@ -527,8 +519,6 @@ border: 1px solid #999;
 }
 
 
-/* CLOSE */
-
 .contact__close {
     position: absolute;
 
@@ -556,8 +546,6 @@ border: 1px solid #999;
     color: #01B0FF;
 }
 
-
-/* CONTACT ITEMS */
 
 .contact__links {
     display: flex;
@@ -636,8 +624,6 @@ border: 1px solid #999;
 }
 
 
-/* MOBILE */
-
 @media (max-width: 600px) {
 
     .contact__modal {
@@ -653,17 +639,10 @@ border: 1px solid #999;
 }
 
 
-/* =========================================================
-   ADAPTIVE — дизайн desktop не змінюємо
-   ========================================================= */
-
-/* Burger прихований на ПК */
 .nav__burger {
     display: none;
 }
 
-
-/* ---------- TABLET ---------- */
 
 @media (max-width: 1100px) {
 
@@ -736,11 +715,7 @@ border: 1px solid #999;
 }
 
 
-/* ---------- MOBILE ---------- */
-
 @media (max-width: 700px) {
-
-    /* NAV */
 
     .nav {
         height: 60px;
@@ -805,8 +780,6 @@ border: 1px solid #999;
     }
 
 
-    /* MAIN */
-
     .Main {
         height: calc(100vh - 60px);
         min-height: 600px;
@@ -832,8 +805,6 @@ border: 1px solid #999;
         gap: 15px;
     }
 
-
-    /* PROJECTS */
 
     .OurProject {
         padding: 60px 20px 80px;
@@ -866,8 +837,6 @@ border: 1px solid #999;
         max-width: 400px;
     }
 
-
-    /* SERVICES */
 
     .OurServices {
         min-height: auto;
@@ -920,8 +889,6 @@ border: 1px solid #999;
     }
 
 
-    /* ABOUT */
-
     .About {
         height: 450px;
         padding: 50px 20px;
@@ -950,8 +917,6 @@ border: 1px solid #999;
     }
 
 
-    /* CTA */
-
     .CTA {
         height: 200px;
         padding: 30px 20px;
@@ -969,8 +934,6 @@ border: 1px solid #999;
     }
 
 
-    /* FOOTER */
-
     .Footer {
         min-height: auto;
         padding: 50px 25px;
@@ -987,8 +950,6 @@ border: 1px solid #999;
         font-size: 13px;
     }
 
-
-    /* CONTACT MODAL */
 
     .contact__modal {
         width: calc(100% - 30px);
